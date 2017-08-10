@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaadvancedcollege;
 
 import java.awt.Image;
 import java.io.BufferedReader;
@@ -24,13 +23,13 @@ import org.jsoup.select.*;
  *
  * @author Shurru
  */
-public class StudentFrame extends javax.swing.JFrame {
+public class InstagramBot extends javax.swing.JFrame {
 Document doc;
 Image i;
     /**
      * Creates new form StudentFrame
      */
-    public StudentFrame() {
+    public InstagramBot() {
         initComponents();
     }
 
@@ -167,7 +166,7 @@ Image i;
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                
-                new StudentFrame().setVisible(true);
+                new InstagramBot().setVisible(true);
             }
         });
     }
